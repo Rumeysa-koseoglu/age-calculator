@@ -82,3 +82,39 @@ p {
     color: #707070;
     font-weight: 500;
 }
+
+/* mobile responsiveness*/
+
+@media (max-width:480px){
+
+    .container {
+        width: 50%;
+        min-width: 380px;
+        padding: 45px 25px;
+    }
+
+    .inputs-wrapper {
+        padding:30px 20px ;
+        margin-bottom: 50px;
+    }
+
+    input,
+    button {
+        height: 45px;
+    }
+
+    input {
+        padding: 0 15px;
+    }
+
+    .outputs-wrapper div {
+        height: 95px;
+        width: 95px;
+        padding: 15px 0;
+    }
+
+    span {
+        font-size: 24px;
+        font-weight: 300;
+    }
+}
